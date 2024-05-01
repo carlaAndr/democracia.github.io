@@ -111,7 +111,9 @@ title: Democracia
 <div class="container">
 	<hr>
 	<blockquote>
-		<p class="quote editable">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
+		<p class="quote editable">
+			"La democracia es como un juego en equipo: todos podemos participar y aportar nuestras ideas."
+		</p>
 		<div class="attribute">
 			<p class="meta">
 				<span class="image"><img class="editable" src="{{ site.baseurl }}/images/wooly.jpg" alt="Wooly"></span>
@@ -134,6 +136,10 @@ title: Democracia
 
 <div class="container">
 	<h2 class="editable">Esto no quiere decir que</h2>
+	<p> se deba de dejar de invertir en educación, ciencia, salud o medio ambiente. La participación es un problema más complejo 
+	Seguiremos investigando pisats, pero depende de ti, que cuando seas grande, participes con tu superpoder para el bien de tu país.
+		
+	</p>
 	<div>
 		<img src="{{ site.baseurl }}/images/Perro2.jpg" alt="Sheep">
 	</div>
@@ -144,19 +150,6 @@ title: Democracia
 	<div class="container">
 		<h2 class="editable">Updates</h2>
 		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
-		<div class="posts">
-			{% for post in site.posts %}
-				<div class="post">
-					<div class="image" style="background-image: url({{ post.featured_image}})"></div>
-					<div class="post-content">
-						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
-						<h3>{{ post.title }}</h3>
-
-						{{ post.content }}
-						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
-					</div>
-				</div>
-			{% endfor %}
-		</div>
+		
 	</div>
 </div>
