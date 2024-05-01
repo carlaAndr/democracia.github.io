@@ -2,7 +2,7 @@
 
 Análisis de datos realizados por Carla Andrea Sosa Peralta 
 
-## Referenicas
+## Referencias
 
 * Pre-built pages
 * Pre-styled components
