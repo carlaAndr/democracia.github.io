@@ -1,8 +1,7 @@
 # ----
 # Site
 
-title: Educaccion
-#CauseTemplate
+title: CauseTemplate
 url: https://clean-oryx.cloudvent.net
 baseurl:
 google_analytics_key:
